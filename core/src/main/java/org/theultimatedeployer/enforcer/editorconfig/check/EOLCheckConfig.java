@@ -17,7 +17,7 @@ public class EOLCheckConfig implements CheckConfig{
   int plattform;
 
   public EOLCheckConfig(final String configVal) {
-    if ("system".equalsIgnoreCase(configVal)) {
+    if ("system".equalsIgnoreCase(configVal) || "os".equalsIgnoreCase(configVal)) {
       plattform = SYSTEM;
     } else if ("LF".equalsIgnoreCase(configVal)) {
       plattform = UNIX;
