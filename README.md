@@ -10,8 +10,8 @@ Not all Editorconfig values are checked right now.
 
 Here is a description of the parameters:
 
-fileFilterRegexp: Java Regexp for the files which should be checked
-rootDir: The top level directory which should be travesed
-shouldFail: Should the Maven execution be stopped ("true") or should it display a warning ("false")
+ - fileFilterRegexp: Java Regexp for the files which should be checked
+ - rootDir: The top level directory which should be travesed
+ - shouldFail: Should the Maven execution be stopped ("true") or should it display a warning ("false")
 
 
